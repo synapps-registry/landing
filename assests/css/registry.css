@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+@media (max-width:600px){
+    .trust table td{
+        display: block;
+        width: 100%;
+    }
+    .footer>div{
+        display: block;
+        width: 100%;
+    }
+    .modules table td{
+        display: block;
+        width: 100%;
+        margin-bottom: 3vw;
+        padding: 4vw 3vw;
+    }
+    .modules table td img{
+        width: unset;
+        height: 85%;
+    }
+    .topic .back{
+        font-size: 4.5rem;
+    }
+    .topic .front{
+        font-size: 1rem;
+    }
+    .statistics>div{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .statistics{
+        display: block !important;   
+    }
+    .box{
+        height: 80vw !important;
+        width: 95% !important;
+    }
+    .intro .design{
+        position: relative !important;
+        width: 100% !important;
+        height: 50% !important;
+        left: unset !important;
+    }
+    .intro .design .circle{
+        right: unset !important;
+        left: 50%;
+        transform: translate(-50%,-50%) !important;
+
+
+    }
+    .intro p{
+        width: 100% !important;
+    }
+    .modules td{
+        height: 25vw !important;
+    }
+    .modules table{
+        width: 100% !important;
+    }
+    .first-td{
+        height: 30vw !important;
+    }
+} 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: vazirmatn;
+} 
+header img{
+    width: clamp(0rem,13vw,8rem);
+}
+.in a{
+    color: #0C376F;
+    text-decoration: none;
+    font-size: clamp(1rem,1.7vw,1.5rem);
+    margin-right: 3vw;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw  11% 1vw;
+}
+.intro .box{
+    height: 30vw;
+    width: 80%;
+    background-color: #f2f5fd;
+    margin: 5vw auto;
+    border-radius: 5vw;
+    position: relative;
+    overflow: hidden;
+}
+.intro .design{
+    height: 100%;
+    width: 30%;
+    background-color: #5b80e5;
+    border-radius: 5vw;
+    position: absolute;
+    left: 0;
+}
+.intro .design img{
+    width: 25vw;
+}
+.intro .design .circle{
+    height: 25vw;
+    width: 25vw;
+    background-color: rgba(0, 0, 0, 0.04);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.intro h1{
+    font-size: clamp(1rem,1.7vw,1.5rem);
+    display: block;
+    margin: 0vw 4vw 2vw;
+    padding-top: 6vw;
+    color: #13293D;
+}
+.intro p{
+    font-size: clamp(0rem,2.5vw,1.1rem);
+    width: 45%;
+    margin-right: 4vw;
+    color: #13293D;
+    margin-bottom: 6vw;
+}
+.intro a.first{
+    height: 3rem;
+    width: 7rem;
+    background-color: #0C376F;
+    color: white;
+    text-decoration: none;
+    border-radius: 4vw;
+    padding: 1.5vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1rem,1.7vw,1.5rem);
+    display: inline;
+    margin-left: 1rem;
+    margin-right: 4vw;
+}
+.intro a.second{
+    height: 3rem;
+    width: 7rem;
+    border: solid 1px #0C376F;
+    border-radius: 4vw;
+    text-decoration: none;
+    color: #0C376F;
+    padding: 1.5vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1rem,1.7vw,1.5rem);
+    display: inline;
+}
+.intro a.first:hover{
+    background-color: #f2f5fd;
+    color: #0C376F;
+    border: solid 1px #0C376F;
+}
+.intro a.second:hover{
+    background-color: #ececec;
+}
+.c1{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.136);
+    position: absolute;
+    left: -30%;
+    top: -18%;
+}
+.c2{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.136);
+    position: absolute;
+    left: -20%;
+    bottom: -15%;
+}
+.c3{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: solid rgba(255, 255, 255, 0.242) 0.1vw;
+    position: absolute;
+    left: -35%;
+    bottom: -20%;
+}
+.statistics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15vw;
+}
+.statistics>div{
+    position: relative;
+    padding: 3vw 0;
+}
+.statistics .text{
+    font-size: 1rem;
+}
+.statistics .number{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.statistics .circle{
+    width: 2rem;
+    height: 2rem;
+    background-color: #4eadc73f;
+    position: absolute;
+    border-radius: 50%;
+    top: -0.9rem;
+    right: 1rem;
+}
+.statistics i{
+    font-size: 2rem;
+    margin-bottom: 1.6vw;
+    position: relative;
+}
+.modules{
+    margin-top: 3vw;
+}
+.topic{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.back{
+    font-weight: bold;
+    font-size: 5rem;
+    color: rgba(0, 0, 0, 0.07);
+    letter-spacing: 1vw;
+    user-select: none;
+    width: 100%;
+    
+}
+.front{
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+/* .modules ul{
+    list-style-type: none;
+    margin-top: 3vw;
+}
+.modules ul li{
+    background-color: #f8f8f8;
+    margin: 2vw auto 3vw;
+    border-radius: 3vw;
+    padding: 8vw 6vw;
+    position: relative;
+    width: 80%;
+} */
+.modules img{
+    width: 45%;
+    position: absolute;
+    left: 2vw;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.modules table{
+    margin: 3vw auto 0;
+    width: 85%;
+    table-layout: fixed;
+}
+.modules table td{
+    background-color: #f8f8f8;
+    border-radius: 3vw;
+    padding: 2vw 3vw;
+    position: relative;
+    height: 20vw;
+    transition: all 0.5s ease;
+}
+.modules table h1{
+    font-size: clamp(1rem,1.7vw,1.5rem);
+    margin-bottom: 2vw;
+    width: 50%;
+}
+.modules table p{
+    font-size: clamp(0rem,2.5vw,1.1rem);
+    width: 50%;
+    padding-left: 1vw;
+}
+.modules table td:hover{
+    background-color: #e0e0e0;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.34);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    display: none;
+    transition: all 0.5s ease;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    transition: all 0.5s ease;
+}
+.modal-image{
+    max-width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all 0.5s ease;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.close{
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.trust table{
+    margin: 0 auto ;
+    width: 85%;
+    table-layout: fixed;
+}
+.trust table .frame{
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.trust table td{
+    background-color: #f8f8f8;
+    text-align: center;
+    position: relative;
+    padding: 3vw 1vw 3vw;
+    border-radius: 3vw;
+    transition: all 0.5s ease;
+    flex: 1 1 100px;
+    margin-bottom: 3vw;
+}
+.trust table td h1{
+    font-size: clamp(1rem,2vw,2.5rem);
+    margin:3vw auto 1.5vw;
+    border-bottom: solid #0c376fa2 0.3vw;
+    padding-bottom: 2vw;
+    width: 80%;
+
+}
+.trust table td p{
+    font-size: clamp(0.7rem,4vw,1.1rem);
+    padding: 0 2vw;
+}
+.tehranian{
+    position: absolute;
+    right: -12%;
+    bottom: -8%;
+    width: 20vw;
+}
+.satarzadeh{
+    position: absolute;
+    right: -5%;
+    bottom: -7%;
+    width: 12vw;
+}
+.aghamir{
+    position: absolute;
+    right: -12%;
+    bottom: -14%;
+    width: 13vw;
+}
+.trust table td:hover{
+    background-color: #e0e0e0;
+}
+.synapps img{
+    width: 15vw;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    padding: 2vw;
+    background: radial-gradient(circle at 70% 90%,#0c376f,#12293d);
+    border-radius: 3vw;
+    margin-bottom: 4vw;
+}
+.footer>div{
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+.footer h1{
+    font-size: clamp(1rem,2vw,3rem);
+    margin-bottom: 2vw;
+    color: white;
+}
+.footer p,.footer span,.footer i{
+    font-size: clamp(0.3rem,2vw,1.1rem);
+    color: white;
+}
+/* .support{
+    width: 29%;
+} */
+.connection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.connection ul{
+    list-style-type: none;
+}
+.synapps{
+    /* width: 29%; */
+    text-align: center;
+}
+.footer ul li i{
+    margin-left: 1vw;
+}
+
+
+
+

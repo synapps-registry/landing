@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+.intro .design img{
+    width: clamp(0rem,70vw,28rem);
+} 
+.design{
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+    background-color: #5b80e5;
+}
+.text{
+    flex-grow: 3;
+}
+.title-size{
+    font-size: clamp(1rem,1.7vw,1.5rem);
+}
+.context-size{
+    font-size: clamp(0rem,2.5vw,1.1rem);
+}
+.c1{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.136);
+    position: absolute;
+    left: -30%;
+    top: -18%;
+}
+.c2{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.136);
+    position: absolute;
+    left: -20%;
+    bottom: -15%;
+}
+.c3{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: solid rgba(255, 255, 255, 0.242) 0.1vw;
+    position: absolute;
+    left: -35%;
+    bottom: -20%;
+}
